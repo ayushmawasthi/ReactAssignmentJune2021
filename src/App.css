@@ -1,38 +1,49 @@
-.App {
+
+.inactive__tab{
+  padding: 40px;
   text-align: center;
-}
+  width: 100%;
+  background-color: rgb(230, 228, 228);
+  color: #5a6f90;
+  cursor: pointer;
+  border-radius: 1px;
+  border-right: 1px solid black;
+  box-sizing: content-box;
+  font-weight: bold;
+  font-size: 25px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.active__tab{
+  padding: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: #5a6f90;
+    color: white;
+    cursor: pointer;
+    border-radius: 1px;
+    border-right: 1px solid black;
+    box-sizing: content-box;
+    font-weight: bold;
+    font-size: 25px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.clicked_Header{
+  background-color: blue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.plancards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

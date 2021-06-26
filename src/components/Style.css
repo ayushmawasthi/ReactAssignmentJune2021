@@ -1,0 +1,233 @@
+.tab-container
+{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+.tabs {
+
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(230, 228, 228);
+    color: #5a6f90;
+    cursor: pointer;
+    border-radius: 1px;
+    border-right: 1px solid black;
+    box-sizing: content-box;
+    
+  }
+  
+  .active-tabs {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: #5a6f90;
+    color: white;
+    cursor: pointer;
+    border-radius: 1px;
+    border-right: 1px solid black;
+    box-sizing: content-box;
+    /* position: relative; */
+  }
+  .card{
+      margin: 10px;
+  }
+  .card-head{
+      background-color: #5a6f90;
+      padding: 10px;
+      text-align: center;
+      box-sizing: content-box;
+      color: white;
+      font-size: 20px;
+  }
+  .plan_name
+  {
+      border-bottom: 1px solid rgb(53, 48, 48);
+      border-bottom-style: dashed;
+      margin: 5px;
+      color: #5a6f90;
+      font-weight: bold;
+  }
+  .similar-sub-data{
+      color: #5a6f90;
+      border-bottom: 1px solid rgb(53, 48, 48);
+      border-bottom-style: dashed;
+      font-weight: bold;
+      
+      
+  }
+ 
+  .total-price-block{
+    padding: 10px;
+    text-align: center;
+    box-sizing: content-box;
+    background-color: #5a6f90;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .startfreetrailbtn{
+      color: #ee5a36;
+      background-color: white;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 25px;
+      
+      border: 1px solid rgb(238,90,54,255);
+  }
+  .startfreetrailbtn:hover{
+    color: white;
+    background-color: #ee5a36;
+    
+  }
+  .plancardholder
+  {
+      display: flex;
+      margin-top: 20px;
+  }
+  .modal{
+      align-content: flex-start;
+      margin: 10px;
+
+  }
+ .modalhead{
+     font-size: 25px;
+     text-align: center;
+     font-weight: bold;
+     color: #5a6f90;
+     border-bottom-style: solid;
+     margin: 5px;
+     padding: 10px;
+ }
+ .modalplanselected{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5a6f90;
+    margin: 5px;
+    padding: 10px;
+ }
+ .modalplanselected span{
+    font-weight: normal;
+    color: #5a6f90;
+ }
+ .modalname p
+ {
+     color: #5a6f90;
+     margin: 5px;
+     font-weight: bold;
+ }
+ .modalname input{
+     width: 80%;
+     height: 30px;
+     margin: 5px;
+     border-radius: 10px;
+     border-color: #5a6f90;
+ }
+ .modalname input:focus{
+     border-radius: 1px;
+     border-color: #5a6f90;
+ }
+ .contactrow{
+     display: flex;
+     flex-direction: row;
+     
+ }
+ .emailcontact{
+     color: #5a6f90;
+     font-weight: bolder;
+     margin-left: 10px;
+     width: 50%;
+     float: left;
+ }
+ .phonecontact{
+    color: #5a6f90;
+    font-weight: bolder;
+    margin-right: 10px;
+    width: 50%;
+    float: right;
+ }
+ .emailcontact input{
+    color: #5a6f90;
+    width: 62%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #5a6f90;
+}
+.phonecontact input{
+   color: #5a6f90;
+   width: 62%;
+   height: 30px;
+   border-radius: 10px;
+   border-color: #5a6f90;
+}
+.dropleft{
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+}
+.dropright{
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.modalselect{
+    color: #5a6f90;
+    font-weight: bold;
+    width: 62%;
+    border-radius: 5;
+    margin-left: 10px;
+}
+.modalselect select{
+    color: #5a6f90;
+    width: 62%;
+    height: 30px;
+    border-color: #5a6f90;
+    border: 2px solid;
+    border-radius: 10;
+}
+.modalcheckboxrow{
+    color: #5a6f90;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.checkboxalign{
+    display: flex;
+}
+.modalsubmit{
+    background-color: #ee5a36;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+    width: 25%;
+    box-sizing: content-box;
+}
+.offline{
+    background-color: #5a6f90;
+    color: white;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    flex: 5;
+    flex-direction: column;
+    justify-content: center;
+}
+.offline p{
+    color: white;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 25%;
+    
+}
